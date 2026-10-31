@@ -1,0 +1,9 @@
+i sometimes see people refer to neural networks as just “another tool in your machine learning toolbox”.
+
+they have some pros and cons, they work here or there, and sometimes you can use them to win kaggle competitions.
+
+unfortunately, this interpretation completely misses the forest for the trees.
+
+neural networks are not just another classifier, they represent the beginning of a fundamental shift in how we develop software.
+
+they are software 2.0.
