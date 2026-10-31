@@ -161,7 +161,7 @@ void neural_network::fit(const std::vector<float>& input, const std::vector<floa
         std::vector<float>& layerWeightsRef{m_weights[weightIndex]};
         std::vector<float>& layerBiasesRef{m_biases[weightIndex]};
 
-        // elementwise multiply incoming gradient by derivative of preactivations:
+        // incoming gradient is wrt activations, make it wrt pre-activations:
         if (weightIndex < m_weights.size() - 1)
         {
             const std::vector<float>& layerActivations{activations[weightIndex + 1]};
